@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
@@ -40,6 +41,8 @@ Global
 
 EndGlobal
 =======
+=======
+>>>>>>> 741520d... Fixing my fuck up
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
@@ -60,10 +63,14 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 <<<<<<< HEAD
+<<<<<<< HEAD
 																						GlobalSection(MonoDevelopProperties) = preSolution
 =======
 																			GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> f17c2f0... Adding wall and floor textures
+=======
+																			GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> 741520d... Fixing my fuck up
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -84,4 +91,7 @@ Global
 	EndGlobalSection
 
 EndGlobal
+<<<<<<< HEAD
 >>>>>>> e186cc6... Updated camera and beginning of the game controller
+=======
+>>>>>>> 741520d... Fixing my fuck up
