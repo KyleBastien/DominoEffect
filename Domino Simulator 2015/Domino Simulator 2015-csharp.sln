@@ -59,7 +59,11 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD
 																							GlobalSection(MonoDevelopProperties) = preSolution
+=======
+																				GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> f17c2f0... Adding wall and floor textures
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -80,4 +84,7 @@ Global
 	EndGlobalSection
 
 EndGlobal
+<<<<<<< HEAD
 >>>>>>> e186cc6... Updated camera and beginning of the game controller
+=======
+>>>>>>> f17c2f0... Adding wall and floor textures
