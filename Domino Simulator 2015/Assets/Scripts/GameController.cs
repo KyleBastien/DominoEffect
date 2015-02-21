@@ -23,6 +23,7 @@ public class GameController : MonoBehaviour {
 		if (mainCamera.isOrthographic) {
 			if (Input.GetButtonDown ("Fire1")) {
 
+<<<<<<< HEAD
 				Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 				RaycastHit hitPoint;
 				
@@ -34,6 +35,14 @@ public class GameController : MonoBehaviour {
 					{
 						Instantiate(domino, newHit, rotate);
 					}
+=======
+				//RaycastHit hit;
+				//Ray ray = Camera.ScreenPointToRay (Input.mousePosition);
+				//raycast part
+				//Vector3 = Input.mousePosition;
+
+				//Instantiate (domino, transform.position, transform.rotation);
+>>>>>>> 357789a... Added gravity to Domino
 
 				}
 				
