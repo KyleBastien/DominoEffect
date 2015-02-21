@@ -1,4 +1,8 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 35e8daa455a78f5488b8c9fa54a0de8f
+=======
+guid: 02b65cfb41ece2e4092c374a9963d3b3
+>>>>>>> e186cc6... Updated camera and beginning of the game controller
 NativeFormatImporter:
   userData: 
