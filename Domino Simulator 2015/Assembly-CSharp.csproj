@@ -47,6 +47,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+     <None Include="Assets\Textures\wut.txt" />
+     <None Include="Assets\Materials\wut.txt" />
+     <None Include="Assets\Prefabs\wut.txt" />
+     <None Include="Assets\Models\wut.txt" />
+     <None Include="Assets\Audio\wut.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
  </Reference>
