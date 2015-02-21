@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0b7183d... Ability to add Domino's to the field
 Microsoft Visual Studio Solution File, Format Version 11.00
@@ -51,6 +52,8 @@ EndGlobal
 =======
 =======
 >>>>>>> 741520d... Fixing my fuck up
+=======
+>>>>>>> 7827506... Woops, fixing SLN file
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
@@ -73,6 +76,7 @@ Global
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 																							GlobalSection(MonoDevelopProperties) = preSolution
 =======
 																				GlobalSection(MonoDevelopProperties) = preSolution
@@ -83,6 +87,9 @@ Global
 =======
 																						GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> 54c8d7b... Updated domino texture
+=======
+																												GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> 7827506... Woops, fixing SLN file
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -105,6 +112,7 @@ Global
 EndGlobal
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e186cc6... Updated camera and beginning of the game controller
 =======
 >>>>>>> f17c2f0... Adding wall and floor textures
@@ -112,3 +120,5 @@ EndGlobal
 >>>>>>> 741520d... Fixing my fuck up
 =======
 >>>>>>> 0b7183d... Ability to add Domino's to the field
+=======
+>>>>>>> 7827506... Woops, fixing SLN file
