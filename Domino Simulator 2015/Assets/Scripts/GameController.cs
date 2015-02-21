@@ -19,18 +19,17 @@ public class GameController : MonoBehaviour
 
 	void Update()
 	{
-		if (mainCamera.isOrthographic) 
-		{
-			if (Input.GetButtonDown("Fire1")) {
+		if (mainCamera.isOrthographic) {
+			if (Input.GetButtonDown ("Fire1")) {
 
 				RaycastHit hit;
-				Ray ray = Camera.ScreenPointToRay(Input.mousePosition);
+				Ray ray = Camera.ScreenPointToRay (Input.mousePosition);
 				//raycast part
 				Vector3 = Input.mousePosition;
 
-				Instantiate(domino, transform.position, transform.rotation);
+				Instantiate (domino, transform.position, transform.rotation);
 
 			}
-		
+		}
 	}
 }
