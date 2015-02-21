@@ -22,12 +22,12 @@ public class GameController : MonoBehaviour
 		if (mainCamera.isOrthographic) {
 			if (Input.GetButtonDown ("Fire1")) {
 
-				RaycastHit hit;
-				Ray ray = Camera.ScreenPointToRay (Input.mousePosition);
+				//RaycastHit hit;
+				//Ray ray = Camera.ScreenPointToRay (Input.mousePosition);
 				//raycast part
-				Vector3 = Input.mousePosition;
+				//Vector3 = Input.mousePosition;
 
-				Instantiate (domino, transform.position, transform.rotation);
+				//Instantiate (domino, transform.position, transform.rotation);
 
 			}
 		}
