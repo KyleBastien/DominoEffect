@@ -1,8 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\NewBehaviourScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CameraController.cs">
     <Files>
-      <File FileName="Assets\Scripts\NewBehaviourScript.cs" Line="9" Column="3" />
+      <File FileName="Assets\Scripts\CameraController.cs" Line="58" Column="3" />
+      <File FileName="..\..\..\..\Desktop\Space Shooter\Assets\Scripts\PlayerController.cs" Line="40" Column="37" />
+      <File FileName="..\..\..\..\Desktop\Space Shooter\Assets\Scripts\GameController.cs" Line="32" Column="16" />
+      <File FileName="..\..\..\..\Desktop\RollABall\Assets\Scripts\PlayerController.cs" Line="27" Column="24" />
+      <File FileName="..\..\..\..\Desktop\Space Shooter\Assets\Done\Done_Scripts\Done_PlayerController.cs" Line="22" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
