@@ -69,7 +69,7 @@ public class CameraController : MonoBehaviour
 			if (Input.GetKey (KeyCode.Q)) {
 				camera.orthographicSize -= 1.0f;
 			}
-			camera.orthographicSize = Mathf.Clamp (camera.orthographicSize, 5.0f, 50.0f); 
+			camera.orthographicSize = Mathf.Clamp (camera.orthographicSize, 2.0f, 50.0f); 
 			transform.Translate (moveHorizontal * shiftSpeed, moveVertical * shiftSpeed, 0.0f);
 		}
 		
