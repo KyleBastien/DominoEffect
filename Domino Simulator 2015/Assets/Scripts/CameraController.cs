@@ -4,12 +4,13 @@ using System.Collections;
 public class CameraController : MonoBehaviour 
 {
 
-	public float rotateSpeed;
+	private float rotateSpeed;
 	private float shiftSpeed;
 	private Vector3 oldPosition;
 	private Quaternion oldRotation;
 	private Vector3 tempPosition;
 	private Quaternion tempRotation;
+	public bool isOrthographic;
 	
 
 	void Start()
@@ -18,10 +19,12 @@ public class CameraController : MonoBehaviour
 		rotateSpeed = 3.0f;
 		oldPosition = new Vector3 (0.0f, 20.0f, -20.0f);
 		oldRotation = new Quaternion (0.4f, 0.0f, 0.0f, 0.9f);
+		Debug.Log(Input.mousePosition);
 	}
 
 	void Update ()
 	{
+		isOrthographic = camera.orthographic;
 		float moveHorizontal = Input.GetAxis ("Horizontal");
 		float moveVertical = Input.GetAxis ("Vertical");
 		float moveUp = 0.0f;
@@ -57,8 +60,16 @@ public class CameraController : MonoBehaviour
 				transform.Rotate (-rotateVertical * rotateSpeed, rotateHorizontal * rotateSpeed, 0.0f);
 			}
 			transform.Translate (moveHorizontal * shiftSpeed, moveUp * shiftSpeed, moveVertical * shiftSpeed);
-		} else 
+		} 
+		else 
 		{
+			if (Input.GetKey (KeyCode.E)) {
+				camera.orthographicSize += 1.0f;
+			}
+			if (Input.GetKey (KeyCode.Q)) {
+				camera.orthographicSize -= 1.0f;
+			}
+			camera.orthographicSize = Mathf.Clamp (camera.orthographicSize, 5.0f, 50.0f); 
 			transform.Translate (moveHorizontal * shiftSpeed, moveVertical * shiftSpeed, 0.0f);
 		}
 		
