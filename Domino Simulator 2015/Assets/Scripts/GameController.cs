@@ -22,7 +22,6 @@ public class GameController : MonoBehaviour {
 	{
 		if (mainCamera.isOrthographic) {
 			if (Input.GetButtonDown ("Fire1")) {
-
 				Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 				RaycastHit hitPoint;
 				
