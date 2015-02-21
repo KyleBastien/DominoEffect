@@ -72,6 +72,7 @@ Global
 	EndGlobalSection
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 																							GlobalSection(MonoDevelopProperties) = preSolution
 =======
 																				GlobalSection(MonoDevelopProperties) = preSolution
@@ -79,6 +80,9 @@ Global
 =======
 																				GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> 741520d... Fixing my fuck up
+=======
+																						GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> 54c8d7b... Updated domino texture
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
