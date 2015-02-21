@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0b7183d... Ability to add Domino's to the field
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
@@ -19,7 +22,11 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD
 																			GlobalSection(MonoDevelopProperties) = preSolution
+=======
+																												GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> 0b7183d... Ability to add Domino's to the field
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -40,6 +47,7 @@ Global
 	EndGlobalSection
 
 EndGlobal
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 741520d... Fixing my fuck up
@@ -98,3 +106,5 @@ EndGlobal
 >>>>>>> f17c2f0... Adding wall and floor textures
 =======
 >>>>>>> 741520d... Fixing my fuck up
+=======
+>>>>>>> 0b7183d... Ability to add Domino's to the field
