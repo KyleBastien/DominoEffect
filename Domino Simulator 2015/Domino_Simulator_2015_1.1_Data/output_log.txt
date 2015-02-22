@@ -6,25 +6,20 @@ Direct3D:
     Vendor:   ATI
     VRAM:     1013 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Pigeon\Documents\GitHub\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Pigeon\Documents\GitHub\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Pigeon\Documents\GitHub\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Pigeon\Documents\GitHub\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Pigeon\Documents\GitHub\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Pigeon\Documents\GitHub\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.163 seconds
+Platform assembly: C:\Users\Pigeon\Documents\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Pigeon\Documents\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Pigeon\Documents\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Pigeon\Documents\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Pigeon\Documents\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Pigeon\Documents\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.057 seconds
 desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-Platform assembly: C:\Users\Pigeon\Documents\GitHub\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\Pigeon\Documents\GitHub\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\System.dll (this message is harmless)
-NullReferenceException: Object reference not set to an instance of an object
-  at GameController.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-Platform assembly: C:\Users\Pigeon\Documents\GitHub\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\System.Xml.dll (this message is harmless)
-Platform assembly: C:\Users\Pigeon\Documents\GitHub\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\System.Xml.Linq.dll (this message is harmless)
+Platform assembly: C:\Users\Pigeon\Documents\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Pigeon\Documents\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Pigeon\Documents\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\System.Xml.dll (this message is harmless)
+Platform assembly: C:\Users\Pigeon\Documents\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\System.Xml.Linq.dll (this message is harmless)
 NullReferenceException: Object reference not set to an instance of an object
   at GameController.Update () [0x00000] in <filename unknown>:0 
  

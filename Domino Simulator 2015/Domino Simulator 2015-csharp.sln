@@ -78,6 +78,7 @@ Global
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 																							GlobalSection(MonoDevelopProperties) = preSolution
 =======
 																				GlobalSection(MonoDevelopProperties) = preSolution
@@ -94,6 +95,9 @@ Global
 =======
 																																										GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> 8430059... All the things
+=======
+				GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> ea47505... Fixing problems
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
