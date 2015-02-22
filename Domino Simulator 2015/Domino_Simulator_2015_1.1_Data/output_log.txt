@@ -1,0 +1,32 @@
+Initialize engine version: 4.6.3f1 (4753d8b6ef2b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Mobility Radeon HD 5000 (ID=0x68c0)
+    Vendor:   ATI
+    VRAM:     1013 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Pigeon\Documents\GitHub\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Pigeon\Documents\GitHub\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Pigeon\Documents\GitHub\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Pigeon\Documents\GitHub\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Pigeon\Documents\GitHub\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Pigeon\Documents\GitHub\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.163 seconds
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\Pigeon\Documents\GitHub\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Pigeon\Documents\GitHub\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\System.dll (this message is harmless)
+NullReferenceException: Object reference not set to an instance of an object
+  at GameController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Platform assembly: C:\Users\Pigeon\Documents\GitHub\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\System.Xml.dll (this message is harmless)
+Platform assembly: C:\Users\Pigeon\Documents\GitHub\DominoEffect\Domino Simulator 2015\Domino_Simulator_2015_1.1_Data\Managed\System.Xml.Linq.dll (this message is harmless)
+NullReferenceException: Object reference not set to an instance of an object
+  at GameController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
