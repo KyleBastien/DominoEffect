@@ -19,7 +19,16 @@ public class CameraController : MonoBehaviour
 		rotateSpeed = 3.0f;
 		oldPosition = new Vector3 (0.0f, 20.0f, -20.0f);
 		oldRotation = new Quaternion (0.4f, 0.0f, 0.0f, 0.9f);
-		Debug.Log(Input.mousePosition);
+	}
+
+	public void changeCamera() {
+		tempPosition = transform.position;
+		tempRotation = transform.rotation;
+		transform.position = oldPosition;
+		transform.rotation = oldRotation;
+		oldPosition = tempPosition;
+		oldRotation = tempRotation;
+		camera.orthographic = !camera.orthographic;
 	}
 
 	void Update ()
@@ -32,13 +41,7 @@ public class CameraController : MonoBehaviour
 		float rotateVertical = Input.GetAxis ("Mouse Y");
 		if (Input.GetKeyDown (KeyCode.C)) 
 		{
-			tempPosition = transform.position;
-			tempRotation = transform.rotation;
-			transform.position = oldPosition;
-			transform.rotation = oldRotation;
-			oldPosition = tempPosition;
-			oldRotation = tempRotation;
-			camera.orthographic = !camera.orthographic;
+			changeCamera();
 		}
 		if (Input.GetKey (KeyCode.LeftShift)) 
 		{
@@ -49,15 +52,19 @@ public class CameraController : MonoBehaviour
 			shiftSpeed = 1.0f;
 		}
 		if (!camera.orthographic) {
+
 			if (Input.GetKey (KeyCode.E)) {
 				moveUp = 1.0f;
 			}
 			if (Input.GetKey (KeyCode.Q)) {
 				moveUp = -1.0f;
 			}
+			if (Input.GetKey (KeyCode.R)) {
+				transform.Rotate (-rotateVertical * rotateSpeed, 0.0f, 0.0f, Space.World);
+			}
 			
 			if (Input.GetMouseButton (1)) {
-				transform.Rotate (-rotateVertical * rotateSpeed, rotateHorizontal * rotateSpeed, 0.0f);
+				transform.Rotate (0.0f, rotateHorizontal * rotateSpeed, 0.0f, Space.World);
 			}
 			transform.Translate (moveHorizontal * shiftSpeed, moveUp * shiftSpeed, moveVertical * shiftSpeed);
 		} 
@@ -69,7 +76,7 @@ public class CameraController : MonoBehaviour
 			if (Input.GetKey (KeyCode.Q)) {
 				camera.orthographicSize -= 1.0f;
 			}
-			camera.orthographicSize = Mathf.Clamp (camera.orthographicSize, 5.0f, 50.0f); 
+			camera.orthographicSize = Mathf.Clamp (camera.orthographicSize, 2.0f, 50.0f); 
 			transform.Translate (moveHorizontal * shiftSpeed, moveVertical * shiftSpeed, 0.0f);
 		}
 		
