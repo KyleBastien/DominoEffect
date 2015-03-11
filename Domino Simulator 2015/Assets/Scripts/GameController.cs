@@ -8,13 +8,6 @@ using System.Linq;
 
 public class GameController : MonoBehaviour {
 	private CameraController mainCamera;
-<<<<<<< HEAD
-	public GameObject domino;
-	int floorMask;
-	
-	void Start()
-	{
-=======
 	int floorMask;
 	public bool initial;
 	private GameObject dominoToEdit;
@@ -32,7 +25,6 @@ public class GameController : MonoBehaviour {
 		helpText.text = "";
 		currentOnBoard = new List<GameObject> ();
 		toSave = new List<dominoPos>();
->>>>>>> 8430059... All the things
 		floorMask = LayerMask.GetMask ("Floor");
 		GameObject mainCameraObject = GameObject.FindWithTag ("MainCamera");
 		if (mainCameraObject != null) {
@@ -129,32 +121,6 @@ public class GameController : MonoBehaviour {
 		{
 			loadGame("test");
 		}
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-				Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
-				RaycastHit hitPoint;
-				
-				if(Physics.Raycast(ray, out hitPoint, 200f, floorMask ))
-				{
-					Vector3 newHit = new Vector3(hitPoint.point.x, hitPoint.point.y + .5f, hitPoint.point.z);
-					Quaternion rotate = Quaternion.identity;
-					if(!Physics.CheckSphere(newHit,.27f))
-					{
-						Instantiate(domino, newHit, rotate);
-					}
-=======
-				//RaycastHit hit;
-				//Ray ray = Camera.ScreenPointToRay (Input.mousePosition);
-				//raycast part
-				//Vector3 = Input.mousePosition;
-
-				//Instantiate (domino, transform.position, transform.rotation);
->>>>>>> 357789a... Added gravity to Domino
-
-				}
-				
-=======
 	}
 
 	public void setHelpText() {
@@ -205,7 +171,6 @@ public class GameController : MonoBehaviour {
 				write.WriteValue (item.rotz);
 				write.WriteEndElement();
 				write.WriteEndElement();
->>>>>>> 8430059... All the things
 			}
 			write.WriteEndElement ();
 			write.WriteEndDocument ();
